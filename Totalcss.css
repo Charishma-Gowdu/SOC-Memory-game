@@ -1,0 +1,47 @@
+.highlight-box {
+        display: inline-block; 
+        border: 1px solid #f69c0b;
+        padding: 2px 5px;
+        margin: 1 2px;
+        border-radius: 10px; 
+}
+    
+table {
+    width: 100%;
+            
+}
+thead{
+    background-color: rgb(214, 29, 214);
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: plum;            
+}
+
+button{
+    border-radius: 20px;
+    background-color: rgb(151, 241, 241);
+    height:25px;
+}   
+button:hover{
+    background-color: rgb(53, 224, 224);
+   cursor:pointer;
+}
+.navbar{
+    background-color: rgb(71, 231, 231) ;
+    height:25px;
+    text-align: center;
+    padding: 20px;
+    margin:0px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar:hover{
+    background-color: rgb(15, 230, 230);
+}
+.navbar a:hover{
+    color: rgb(199, 23, 52);
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assaignment 1</title>
+    <link rel="icon" href="icon.jpeg">
+    <link rel="stylesheet" href="Totalcss.css"> 
+    <script src="Totaljs.js"></script>
+</head>
+<body>
+    <h1 style="text-align: center;"><i>Basics of Web Development</i></h1>
+    <i>
+    <div class="navbar">
+        <a href="#introduction">Introduction</a>
+        <a href="#HTMLpage">HTML</a>
+        <a href="#CSSpage">CSS</a>
+        <a href="#JSpage">JavaScript</a>
+    </div>
+    <div class="content">
+
+        <!--Starting of Introduction Page-->
+
+        <section id="#introduction">
+            <h3>Introduction</h3>
+            <b>Observe icon,header and navbar</b>
+        <ol>
+        <li>Introduction</li>
+        <ul>
+            <li>Basic concepts</li>
+            <li>History of HTML</li>
+        </ul>
+        <li>Structure</li>
+        <ul>
+            <li>Elements</li>
+            <li>Tags</li>
+        </ul>
+        <li>Attributes</li>
+        <ul>
+            <li>Global attributes</li>
+            <li>Specific attributes</li>
+        </ul>
+        </ol>
+    <p>Web developer is the work involved in developing a website for the internet or an intranet.It can range from developing a simple static page of plain text to coplex webapplications,electric business,and social network services.</p>
+    <p><b>Key Elements:</b>HTML,CSS,JavaScript</p>
+    <img src="web.jpeg" alt="Photo of Web Development">
+    <p>To learn from <a href="https://www.w3schools.com/" target="_blank">w3schools</a>click above link</p>
+    <p>Check out <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> for detailed documentation.</p>
+    <p>Learn more at <a href="https://www.google.com" target="_self">Google</a></p>
+    <p>Explore <a href="https://webflow.com/made-in-webflow/web-developer" target="_blank">Example Site</a></p>
+    
+    </section>
+
+    <!--Starting of HTML Page-->
+
+    <section id="HTMLpage">
+        <h3>HTML</h3>
+    <p>HTML is a standard language for creating web pages.HTML describes the structure of a web page using markup.HTML elements are the building blocks of HTML pages.</p>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;This is a Heading&lt;/h1&gt;
+            &lt;p&gt;This is a paragraph&lt;/p&gt;
+        &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+    <p>The <mark>&lt;mark&gt;</mark> tag highlights text,while <del>&lt;del&gt;</del>and <ins>&lt;ins&gt;</ins> tags show deleted and inserted text,respectively.</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Fusce <span class="highlight-box">malesuada</span> ultrices nisi,eu tempus ipsum volupat sit amet.</p>
+    </section>
+
+    <!--Starting Of CSS Page-->
+
+    <section id="CSSpage">
+        <h3>CSS</h3>
+    <p>CSS stands for <b><i>Cascading Style Sheets.</i></b>It describes how HTML elements are to be displayed on screen, paper, or in other media.CSS saves a lot of work.It can control the layout of multiple web pages all at once.</p>
+    <a href="https://www.w3schools.com/Css/">
+    <img src="CSS.jpeg" alt="CSS image"></a>
+    <p>For any inquiries, email us at <a href="mailto:gowducharishma@gmail.com">email</a></p>
+    <p>Undestanding image maps:</p>
+    <img src="success.webp" width="200">
+    <p>Responsive images with the &lt;picture&gt; element:</p>
+    <p>Change width to observe changes</p>
+
+    <picture>
+        <source srcset="nature.jpeg" media="(min-width: 1200px)">
+        <source srcset="nature.jpeg" media="(min-width: 768px)">
+        <source srcset="nature.jpeg" media="(min-width: 480px)">
+        <img src="nature.jpeg" alt="A beautiful scenery">
+    </picture>
+
+    <br><br>
+    <h3 style="text-align: center;">This is a Random Text</h3>
+    <p style="text-align: center;background-image: URL('background2.jpg');background-size: cover;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Nullam sit amet turpis vitae odio convallis laoreet.
+    Integer eu libero eu fellis commodo gravida.In eget sapien nec libero suscipit condimentum. Fusce eget semper eros.</p>
+    <p>Some beautiful tables can be made</p>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Category</th>
+                <th colspan="3">Item Details</th>
+                <th rowspan="2">Quantity</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Electronics</td>
+                <td>Laptop</td>
+                <td>High performance laptop for gaming and work</td>
+                <td>1</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>Furniture</td>
+                <td>Desk</td>
+                <td>Ergonomic office chair</td>
+                <td>1</td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td>Stationaery</td>
+                <td>Notebook</td>
+                <td>A4 size,100 pages</td>
+                <td>5</td>
+                <td>$15</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    </section>
+
+    <!--Starting of JavaScript Page-->
+
+    <section id="JSpage">
+        <h3>JavaScript</h3>
+        <p>Javascript is a programming language commonly used in web development.It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.JavaScript is versatile and beginner-friendly.</p>
+        <img src="sinppetOfJs.png" alt="snippet code of JavaScript"><br>
+        
+        <button onclick="Hello()">Click Me</button>
+        <p>Visit our <button onclick="website()">Javascript Website</button> for more information.</p>
+        
+        <h4>JavaScript Example</h4>
+        <button onclick='document.getElementById("original").innerHTML="Text has been changed"'>Change Text</button>
+        <p id="original">This is some changeable text.</p>
+        <button onclick="document.getElementById('happy').src='Happy.png'">Happy</button>
+        <img id="happy" src="Happy.png" style="width:100px">
+        <button onclick="document.getElementById('happy').src='Sad.jpeg'">Sad</button>
+        <footer>
+        <h4 style="text-align: center;">Contact Us:</h4>
+        <p style="text-align: center;">Web Development Inc.</p>
+        <p style="text-align: center;">123 Web Street,Web city,WB 12345</p>
+        <a href="mailto:gowducharishma@gmail.com" style="text-align: center;">mail</a>
+        <p style="text-align: center;">2024 Basics of Web Development</p>
+    </footer>
+    </section>
+</i>
+    </div>
+    
+    
+    
+
+
+    
+</body>
+</html>
