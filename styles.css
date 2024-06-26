@@ -1,0 +1,115 @@
+body{
+    background-color: #f4f1de;
+}
+
+.card-container {
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.card{
+    width:70vh;
+    height: 40vh;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+.card *:not(:hover) {
+    pointer-events: none; 
+}
+
+.front, .back{    
+    height: 100%;
+    width:100%;    
+    border-radius: 10px;
+    background-image: url('new2.jpg');
+    background-size:cover;  
+    position: absolute;  
+    backface-visibility: hidden;
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+
+h2{
+    margin-left: 50px;
+    margin-top: -45px;
+}
+
+.logo{    
+    margin-right:-15px;
+    border-radius:10px;
+    background-color:orange;
+    margin-top:-20px;
+    margin-left: 15px;
+}
+
+.EMV{
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 10px;  
+    margin-top: -20px; 
+}
+
+.number{
+    font-size: 2em;
+    text-align: center;
+    color: #fce890;
+    margin-top: -20px;
+}
+
+.circle{
+    margin-top: -12%;
+    margin-bottom: 50%;
+    margin-left: 80%;
+    border-radius: 30px;
+}
+
+.contactlessLogo{
+    margin-left: -12%;
+    margin-bottom: 80%;
+    margin-top: -150%;
+    margin-left: 80%;
+    border-radius: 30px;   
+}
+
+.blackline{
+    height:7vh;
+    width:70vh;
+    background-color: black;
+    position: relative;
+    top: 5vh;
+}
+
+.signature{
+    margin-top: 6.5vh;
+    margin-left: 3vh;
+    position: relative;
+}
+
+.holograph{
+    margin-left:  -43vh;
+    margin-top: 2vh;
+    position: relative;
+    top:10vh;
+    border-radius: 10px;
+}
+
+.contactInfo{
+    color: aliceblue;
+    line-height: 0.5;
+    margin-top: 11vh;
+    font-size: 1em;
+    margin-left: 3vh;
+}
+
