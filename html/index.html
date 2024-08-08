@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="icon" type="image/x-icon" href="../photos/fav.jpg">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="moves">Moves: <span id="moves">0</span></div>
+        <div class="container">
+            <h2>MEMORY GAME</h2>
+            <button class="started" onclick="start()"><i>Start</i></button>
+            <button class="reset" onclick="window.location.reload();"><i>RESET GAME</i></button>
+            <button class="stop" onclick="window.location.reload();window.location.href='frontpage.html'"><i>STOP</i></button>
+            
+            <div class="game"><p>Flip, Match, and Prove You're Smarter Than Your Phone's Auto-Correct! Select the level you wanted and start.</p></div>
+        </div>
+    <div class="timeTaken">
+        <h1>TIMER</h1>
+            <div id="stopwatch">00:00
+            </div>
+    </div>
+    <button class="level" id="Easy" onclick="easy()">Easy</button>
+    <button class="level" id="Medium" onclick="normal()">Medium</button>
+    <button class="level" id="Difficult" onclick="difficult()">Difficult</button>
+    <script src="../js/script.js"></script>   
+</body>
+</html>

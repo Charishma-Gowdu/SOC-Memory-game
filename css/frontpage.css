@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    padding-left: 5vh;
+    align-items: flex-start;
+    flex-direction: column;    
+    height : 90vh;
+    width:150vh;
+    background-image: URL('../photos/FirstPage.jpeg');
+    background-size:cover;
+}
+
+h2{
+    font-size: 3em;
+    color:#003566;
+}
+
+button{
+    height: 7vh;
+    width: 15vh;
+    border-radius: 5vh;
+    background-color:#003566;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+p{
+    font-size: 2em;
+    color:#003566;
+}

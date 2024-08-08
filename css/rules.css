@@ -1,0 +1,39 @@
+body {
+    
+    background-image: url('../photos/RulesPage.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+}
+
+.container {
+    padding-left: 50vh;
+    padding-right: 10vh;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    
+}
+
+h1 {
+    font-size: 5em;
+    padding-left: 15vh;
+}
+
+p {
+    font-size: 3em;
+    margin-left: 0vh;
+}
+
+button {
+    cursor: pointer;
+    height: 7vh;
+    width: 20vh;
+    font-size: 1.5em;
+    border-radius: 10vh;
+    background-color: #f6bd60;
+    margin-bottom: 10vh;
+}
